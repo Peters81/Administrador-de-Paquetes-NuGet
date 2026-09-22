@@ -462,12 +462,12 @@ El escenario también permite observar la relación entre el uso de paquetes, la
 
 | Aspecto | Escenario 1 | Escenario 2 | Escenario 3 |
 |---|---|---|---|
-| Paquete utilizado | Newtonsoft.Json | Humanizer | Pendiente |
-| Tipo de proyecto | Windows Forms | Console App | Pendiente |
-| Función principal | Convertir datos a JSON | Presentar fechas de forma natural | Pendiente |
-| Instalación | NuGet | NuGet | Pendiente |
-| Función utilizada | `SerializeObject()` | `Humanize()` | Pendiente |
-| Resultado | Información en formato JSON | Fecha presentada de forma natural | Pendiente |
+| Paquete utilizado | Newtonsoft.Json | Humanizer | Serilog y Serilog.Sinks.File |
+| Tipo de proyecto | Windows Forms | Console App | Windows Forms App (.NET Framework) |
+| Función principal | Convertir datos a JSON | Presentar fechas de forma natural | Registrar eventos y errores |
+| Instalación | NuGet | NuGet | NuGet |
+| Función utilizada | `SerializeObject()` | `Humanize()` | `Information()` y `Error()` |
+| Resultado | Información en formato JSON | Fecha presentada de forma natural | Registro de eventos y errores en `app.log` |
 
 Los escenarios permiten demostrar diferentes formas de utilizar paquetes de NuGet dentro de proyectos desarrollados con .NET.
 
