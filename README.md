@@ -473,32 +473,6 @@ Los escenarios permiten demostrar diferentes formas de utilizar paquetes de NuGe
 
 ---
 
-# 5. Evidencias del trabajo
-
-Para demostrar el desarrollo de los escenarios se incluirán capturas de pantalla de las diferentes etapas realizadas.
-
-### Escenario 1 — Newtonsoft.Json
-
-- Instalación del paquete Newtonsoft.Json.
-- Diseño del formulario Windows Forms.
-- Datos ingresados por el usuario.
-- Resultado de la conversión a JSON.
-
-### Escenario 2 — Humanizer
-
-- Instalación del paquete Humanizer.
-- Código utilizado en `Program.cs`.
-- Resultado mostrado en la consola.
-
-### Escenario 3
-
-- Instalación del paquete utilizado.
-- Código del escenario.
-- Ejecución del programa.
-- Resultado obtenido.
-
----
-
 # 6. Documentación
 
 En la carpeta `Documentacion` se incluirán los archivos relacionados con la investigación escrita.
@@ -549,13 +523,3 @@ El tercer escenario permitirá complementar la investigación mostrando otra for
 De esta manera, los ejemplos permiten comprender cómo NuGet puede ser utilizado para incorporar diferentes funcionalidades a un proyecto sin tener que desarrollar todas las herramientas desde cero.
 
 ---
-
-# Recursos incluidos
-
-- Documentación de la investigación.
-- Presentación sobre NuGet.
-- Código fuente del escenario con Newtonsoft.Json.
-- Código fuente del escenario con Humanizer.
-- Código fuente del escenario 3.
-- Capturas de pantalla de las pruebas realizadas.
-- Paquetes NuGet utilizados en los escenarios.
