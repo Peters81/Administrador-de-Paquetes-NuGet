@@ -1,4 +1,4 @@
-# Investigación #1 Arquitectura Calidad en el Desarrollo de Aplicaciones en C#
+# Investigación #1 NuGet: Gestor de paquetes para .NET
 
 | Dato | Información |
 |---|---|
@@ -11,46 +11,27 @@
 | Fecha | 14/09/2026 |
 | Instructor | Ing. Irina Fong |
 
+---
 
-# UNIVERSIDAD [NOMBRE DE LA UNIVERSIDAD]
+# NuGet: Gestor de paquetes para .NET
 
-## Facultad de [Nombre de la Facultad]
-### Carrera de [Nombre de la Carrera]
+## 1. ¿Qué es NuGet?
+
+NuGet es el gestor de paquetes utilizado en .NET para facilitar la incorporación de bibliotecas y código desarrollado por terceros o por otros proyectos. Su función principal es permitir que un proyecto pueda agregar funcionalidades sin tener que programarlas desde cero.
+
+Los paquetes de NuGet pueden contener código compilado, archivos DLL, metadatos y otros archivos necesarios para utilizar una determinada funcionalidad. Estos paquetes se pueden obtener desde el repositorio público de NuGet y también desde repositorios privados.
+
+NuGet permite administrar las dependencias de un proyecto, controlar las versiones de los paquetes y facilitar su distribución. Además, se encuentra integrado con herramientas como Visual Studio y .NET CLI.
 
 ---
 
-# TRABAJO DE INVESTIGACIÓN
+## 2. ¿Cómo se utiliza NuGet?
 
-## NuGet: Gestor de paquetes para .NET
+NuGet se puede utilizar de diferentes maneras dependiendo de la herramienta que se esté utilizando.
 
-### Herramientas de Programación
+En Visual Studio se puede acceder a la opción **Administrar paquetes NuGet**, desde donde es posible buscar, instalar, actualizar o eliminar paquetes de un proyecto.
 
----
+También se puede utilizar la consola o la **CLI de .NET**, que permite ejecutar comandos desde la terminal. Por ejemplo, para instalar el paquete Newtonsoft.Json se puede utilizar:
 
-### Integrantes
-
-- **Nombre completo 1**
-- **Nombre completo 2**
-- **Nombre completo 3**
-
-### Materia
-
-**[Nombre de la materia]**
-
-### Docente
-
-**[Nombre de la profesora]**
-
-### Tema
-
-**NuGet y la gestión de paquetes en proyectos .NET**
-
-### Tipo de trabajo
-
-**Investigación y demostración práctica**
-
-### Fecha
-
-**[Fecha de entrega]**
-
----
+```bash
+dotnet add package Newtonsoft.Json
