@@ -110,7 +110,7 @@ En el formulario se agregan los siguientes controles:
 
 **Evidencia del diseño del formulario:**
 
-![Diseño del formulario](Imagenes/escenario1-diseno.png)
+![Diseño del formulario](pictures/Image1E1.png)
 
 ### Paso 2. Instalar Newtonsoft.Json
 
