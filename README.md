@@ -302,38 +302,162 @@ En lugar de crear manualmente toda la lógica para presentar una fecha de forma 
 
 ## 🟣 3.3 Escenario 3: Pendiente de agregar
 
-> **Este espacio queda reservado para el tercer escenario.**
->
-> La información de este escenario será agregada posteriormente con base en el contenido correspondiente.
+>## 🟣 3.3 Escenario 3: Calidad, registro de eventos y mantenimiento con Serilog
 
-### Descripción
+Para este escenario práctico se utilizó la biblioteca **Serilog**, incorporada mediante el administrador de paquetes NuGet. El objetivo es demostrar cómo el uso de un paquete externo puede contribuir a la calidad y al mantenimiento de una aplicación desarrollada con C# y Windows Forms, permitiendo registrar eventos importantes y errores que ocurran durante la ejecución.
 
-Pendiente de agregar.
+Este escenario se relaciona directamente con el uso de NuGet dentro del ciclo de vida del software, específicamente en las etapas de desarrollo, pruebas y mantenimiento.
 
-### Paquete utilizado
+### Paso 1. Crear el proyecto
 
-Pendiente de agregar.
+Para comenzar, se creó un proyecto de tipo **Windows Forms App (.NET Framework)** en Visual Studio.
 
-### Código utilizado
+Posteriormente, mediante el administrador de paquetes NuGet, se instalaron los siguientes paquetes:
 
-Pendiente de agregar.
+- **Serilog**
+- **Serilog.Sinks.File**
 
-### Explicación
+El paquete **Serilog** proporciona la funcionalidad principal para realizar el registro de información, mientras que **Serilog.Sinks.File** permite almacenar estos registros en un archivo.
 
-Pendiente de agregar.
+De esta manera, la aplicación puede conservar información sobre diferentes acciones realizadas durante su ejecución.
+
+**Evidencia de la instalación de los paquetes:**
+
+![Instalación de Serilog](Imagenes/instalacion-serilog.png)
+
+### Paso 2. Configuración del registro
+
+Después de instalar los paquetes, se agregó la referencia a Serilog mediante:
+
+```csharp
+using Serilog;
+```
+
+Luego se configuró un objeto `logger` para indicar que los registros serían almacenados en un archivo llamado `app.log` dentro de la carpeta `logs`.
+
+```csharp
+private static readonly ILogger logger = new LoggerConfiguration()
+    .WriteTo.File("logs/app.log", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
+```
+
+Esta configuración permite que los eventos registrados por la aplicación sean almacenados de forma automática.
+
+Cuando se inicia la aplicación, se registra un mensaje informativo mediante:
+
+```csharp
+logger.Information("La aplicación se inició correctamente.");
+```
+
+De esta forma, el archivo de registro permite comprobar cuándo se inició la aplicación y mantener un historial de los eventos generados.
+
+**Evidencia de la configuración del registro:**
+
+![Configuración de Serilog](Imagenes/escenario3-configuracion.png)
+
+### Paso 3. Registro de eventos
+
+Para demostrar el funcionamiento de Serilog, se agregó un botón denominado **"Registrar evento"**.
+
+Al presionarlo, se ejecuta el siguiente código:
+
+```csharp
+logger.Information("El usuario presionó el botón Registrar evento.");
+
+MessageBox.Show("Evento registrado correctamente.");
+```
+
+El método `Information()` permite registrar un evento de tipo informativo. En este caso, se almacena una descripción de la acción realizada por el usuario.
+
+Después de ejecutar la aplicación y presionar el botón, el archivo `app.log` muestra un registro similar al siguiente:
+
+```text
+[INF] El usuario presionó el botón Registrar evento.
+```
+
+Esto demuestra que Serilog está capturando correctamente los eventos generados por la aplicación.
+
+El registro de este tipo de información puede ayudar a conocer las acciones que se realizaron durante la ejecución y facilitar el análisis posterior del comportamiento del programa.
+
+**Evidencia del evento registrado:**
+
+![Evento registrado con Serilog](Imagenes/escenario3-evento.png)
+
+### Paso 4. Registro y manejo de errores
+
+También se agregó un segundo botón denominado **"Generar error"**, cuyo propósito es comprobar cómo se pueden detectar y registrar errores sin cerrar inesperadamente la aplicación.
+
+Para ello, se utilizó una estructura `try-catch`:
+
+```csharp
+try
+{
+    int numero = 10;
+    int resultado = numero / 0;
+}
+catch (Exception ex)
+{
+    logger.Error(ex, "Ocurrió un error al realizar una operación.");
+
+    MessageBox.Show("Se produjo un error. El evento fue registrado.");
+}
+```
+
+La operación `10 / 0` genera intencionalmente una excepción de tipo `DivideByZeroException`.
+
+Sin embargo, debido al uso de `try-catch`, el error es capturado y la aplicación puede continuar funcionando.
+
+Dentro del bloque `catch`, se utiliza `logger.Error()` para guardar la información del error en el archivo de registro.
+
+Como resultado, `app.log` muestra información similar a:
+
+```text
+[ERR] Ocurrió un error al realizar una operación.
+
+System.DivideByZeroException:
+Intento de dividir por cero.
+```
+
+**Evidencia del error registrado:**
+
+![Error registrado con Serilog](Imagenes/escenario3-error.png)
+
+### Paso 5. Relación con el mantenimiento y la calidad
+
+Este escenario demuestra cómo una biblioteca incorporada mediante NuGet puede contribuir al mantenimiento de una aplicación.
+
+El registro de eventos permite realizar un seguimiento de las acciones y problemas ocurridos durante la ejecución, mientras que el registro de errores facilita la identificación de situaciones que requieren revisión.
+
+La investigación también señala que durante la etapa de mantenimiento es importante actualizar los paquetes utilizados y corregir vulnerabilidades conocidas.
+
+Una actualización puede solucionar problemas de seguridad sin necesidad de modificar toda la lógica de la aplicación, aunque los cambios deben ser probados antes de incorporarse definitivamente.
 
 ### Resultado esperado
 
-Pendiente de agregar.
+Al ejecutar la aplicación se espera poder realizar dos acciones principales:
 
-**Evidencia del escenario 3:**
+1. Presionar el botón **"Registrar evento"** y obtener un mensaje indicando que el evento fue registrado correctamente.
+2. Presionar el botón **"Generar error"** y comprobar que el error es capturado y registrado sin que la aplicación se cierre inesperadamente.
+
+Además, en la carpeta `logs` se debe generar el archivo:
+
+```text
+app.log
+```
+
+Este archivo contiene los eventos y errores registrados durante la ejecución de la aplicación.
+
+**Evidencia del resultado final:**
 
 ![Resultado del escenario 3](Imagenes/escenario3-resultado.png)
 
 ### Relación con NuGet
 
-Pendiente de agregar.
+Este escenario demuestra que NuGet no solamente permite agregar bibliotecas para realizar funciones específicas, sino que también permite incorporar herramientas que pueden apoyar diferentes etapas del desarrollo de software.
 
+En este caso, **Serilog** permite agregar un sistema de registro de eventos y errores a una aplicación Windows Forms. La incorporación de **Serilog** y **Serilog.Sinks.File** mediante NuGet facilita la integración de estas funcionalidades sin tener que desarrollar desde cero un sistema completo de registro.
+
+El escenario también permite observar la relación entre el uso de paquetes, la calidad del software y el mantenimiento de las aplicaciones.
 ---
 
 # 4. Comparación de los escenarios
