@@ -3,12 +3,12 @@
 | Dato | Información |
 |---|---|
 | Curso | Herramientas de la Programación Aplicada III (.NET) |
-| Laboratorio | #4 |
+| Investigacion | #1 |
 | Estudiantes | Cristell Peters, Alisson Lacayo, Greisy Coronado|
 | Grupo | 1IL133 |
 | Carrera | Ingeniería en Sistemas y Computación |
 | Año | 2026 |
-| Fecha | 14/09/2026 |
+| Fecha | 21/09/2026|
 | Instructor | Ing. Irina Fong |
 
 ---
