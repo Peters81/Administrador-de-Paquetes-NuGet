@@ -428,7 +428,7 @@ De esta manera, los ejemplos permiten comprender cómo NuGet puede ser utilizado
 
 ---
 
-#. Recursos incluidos
+# Recursos incluidos
 
 - Documentación de la investigación.
 - Presentación sobre NuGet.
