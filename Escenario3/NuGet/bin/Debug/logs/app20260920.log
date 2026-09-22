@@ -1,0 +1,8 @@
+2026-09-20 22:48:18.220 -05:00 [INF] La aplicación se inició correctamente.
+2026-09-20 22:54:28.331 -05:00 [INF] La aplicación se inició correctamente.
+2026-09-20 22:54:31.060 -05:00 [INF] El usuario presionó el botón Registrar evento.
+2026-09-20 22:55:11.860 -05:00 [INF] La aplicación se inició correctamente.
+2026-09-20 22:55:13.476 -05:00 [ERR] Ocurrió un error al realizar una operación.
+System.DivideByZeroException: Intento de dividir por cero.
+   en NuGet.Form1.btnError_Click(Object sender, EventArgs e) en C:\Users\greis\source\repos\NuGet\Form1.cs:línea 42
+2026-09-20 23:09:10.840 -05:00 [INF] La aplicación se inició correctamente.
