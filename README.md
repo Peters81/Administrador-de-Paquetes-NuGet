@@ -416,54 +416,7 @@ La presentación contiene los puntos principales del tema, incluyendo:
 
 ---
 
-# 8. Estructura del repositorio
-
-La estructura del repositorio estará organizada de la siguiente manera:
-
-```text
-NUGet-Proyecto/
-│
-├── README.md
-│
-├── Documentacion/
-│   ├── Informe_NuGet.docx
-│   └── Informe_NuGet.pdf
-│
-├── Presentacion/
-│   └── Presentacion_NuGet.pptx
-│
-├── Escenarios/
-│   │
-│   ├── Escenario-1-NewtonsoftJson/
-│   │   ├── README.md
-│   │   ├── Pract1-Controles.csproj
-│   │   ├── Program.cs
-│   │   ├── Form1.cs
-│   │   ├── Form1.Designer.cs
-│   │   └── Form1.resx
-│   │
-│   ├── Escenario-2-Humanizer/
-│   │   ├── README.md
-│   │   ├── ConsoleApp1.csproj
-│   │   └── Program.cs
-│   │
-│   └── Escenario-3/
-│       ├── README.md
-│       └── Archivos del proyecto
-│
-└── Imagenes/
-    ├── instalacion-newtonsoft.png
-    ├── escenario1-diseno.png
-    ├── escenario1-datos.png
-    ├── escenario1-resultado.png
-    ├── instalacion-humanizer.png
-    ├── escenario2-resultado.png
-    └── escenario3-resultado.png
-```
-
----
-
-# 9. Conclusión
+# 8. Conclusión
 
 NuGet es una herramienta que facilita el desarrollo de aplicaciones en .NET porque permite agregar bibliotecas y funcionalidades ya creadas a los proyectos. También permite administrar las dependencias y las versiones de los paquetes utilizados.
 
@@ -475,7 +428,7 @@ De esta manera, los ejemplos permiten comprender cómo NuGet puede ser utilizado
 
 ---
 
-# 10. Recursos incluidos
+#. Recursos incluidos
 
 - Documentación de la investigación.
 - Presentación sobre NuGet.
