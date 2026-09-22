@@ -4,7 +4,9 @@
 |---|---|
 | Curso | Herramientas de la Programación Aplicada III (.NET) |
 | Laboratorio | #4 |
-| Estudiante | Cristell Peters |
+| Estudiantes | Cristell Peters
+Alisson Lacayo
+Greisy Coronado|
 | Grupo | 1IL133 |
 | Carrera | Ingeniería en Sistemas y Computación |
 | Año | 2026 |
