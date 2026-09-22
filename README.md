@@ -1,3 +1,4 @@
+![presentacion](pictures/NuGet.png)
 # Investigación #1 NuGet: Gestor de paquetes para .NET
 
 | Dato | Información |
