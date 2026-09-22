@@ -128,7 +128,7 @@ dotnet add package Newtonsoft.Json
 
 **Evidencia de instalación del paquete:**
 
-![Instalación de Newtonsoft.Json](Imagenes/instalacion-newtonsoft.png)
+![Instalación de Newtonsoft.Json](pictures/Image2E1.png)
 
 ### Paso 3. Agregar la biblioteca
 
@@ -183,10 +183,6 @@ Para realizar la prueba se pueden utilizar los siguientes datos:
 - **Edad:** 20
 - **Carrera:** Ingeniería en Sistemas
 
-**Evidencia del formulario ejecutándose:**
-
-![Formulario ejecutándose](Imagenes/escenario1-datos.png)
-
 ### Resultado esperado
 
 Al presionar el botón de convertir, se espera obtener un resultado similar al siguiente:
@@ -197,7 +193,7 @@ Al presionar el botón de convertir, se espera obtener un resultado similar al s
 
 **Evidencia del resultado:**
 
-![Resultado JSON](Imagenes/escenario1-resultado.png)
+![Resultado JSON](pictures/Image3E1.png)
 
 ### Relación con NuGet
 
