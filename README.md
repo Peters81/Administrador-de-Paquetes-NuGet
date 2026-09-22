@@ -300,9 +300,7 @@ En lugar de crear manualmente toda la lógica para presentar una fecha de forma 
 
 ---
 
-## 🟣 3.3 Escenario 3: Pendiente de agregar
-
->## 🟣 3.3 Escenario 3: Calidad, registro de eventos y mantenimiento con Serilog
+## 🟣 3.3 Escenario 3: Calidad, registro de eventos y mantenimiento con Serilog
 
 Para este escenario práctico se utilizó la biblioteca **Serilog**, incorporada mediante el administrador de paquetes NuGet. El objetivo es demostrar cómo el uso de un paquete externo puede contribuir a la calidad y al mantenimiento de una aplicación desarrollada con C# y Windows Forms, permitiendo registrar eventos importantes y errores que ocurran durante la ejecución.
 
