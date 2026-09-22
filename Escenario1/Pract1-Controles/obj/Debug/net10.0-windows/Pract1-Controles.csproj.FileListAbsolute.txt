@@ -1,0 +1,56 @@
+C:\Users\Cristell\Desktop\HPA3\Pract1-Controles\Pract1-Controles\bin\Debug\net10.0-windows\Pract1-Controles.exe
+C:\Users\Cristell\Desktop\HPA3\Pract1-Controles\Pract1-Controles\bin\Debug\net10.0-windows\Pract1-Controles.deps.json
+C:\Users\Cristell\Desktop\HPA3\Pract1-Controles\Pract1-Controles\bin\Debug\net10.0-windows\Pract1-Controles.runtimeconfig.json
+C:\Users\Cristell\Desktop\HPA3\Pract1-Controles\Pract1-Controles\bin\Debug\net10.0-windows\Pract1-Controles.dll
+C:\Users\Cristell\Desktop\HPA3\Pract1-Controles\Pract1-Controles\bin\Debug\net10.0-windows\Pract1-Controles.pdb
+C:\Users\Cristell\Desktop\HPA3\Pract1-Controles\Pract1-Controles\obj\Debug\net10.0-windows\Pract1_Controles.Form1.resources
+C:\Users\Cristell\Desktop\HPA3\Pract1-Controles\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-Controles.csproj.GenerateResource.cache
+C:\Users\Cristell\Desktop\HPA3\Pract1-Controles\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-Controles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cristell\Desktop\HPA3\Pract1-Controles\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-Controles.AssemblyInfoInputs.cache
+C:\Users\Cristell\Desktop\HPA3\Pract1-Controles\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-Controles.AssemblyInfo.cs
+C:\Users\Cristell\Desktop\HPA3\Pract1-Controles\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-Controles.csproj.CoreCompileInputs.cache
+C:\Users\Cristell\Desktop\HPA3\Pract1-Controles\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-Controles.dll
+C:\Users\Cristell\Desktop\HPA3\Pract1-Controles\Pract1-Controles\obj\Debug\net10.0-windows\refint\Pract1-Controles.dll
+C:\Users\Cristell\Desktop\HPA3\Pract1-Controles\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-Controles.pdb
+C:\Users\Cristell\Desktop\HPA3\Pract1-Controles\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-Controles.genruntimeconfig.cache
+C:\Users\Cristell\Desktop\HPA3\Pract1-Controles\Pract1-Controles\obj\Debug\net10.0-windows\ref\Pract1-Controles.dll
+C:\Users\Cristell\Desktop\HPA3\Pract1-Controles\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-C.413652CB.Up2Date
+C:\Users\Cristell\Desktop\HPA3\Laboratorio-1-HPA3\Pract1-Controles\Pract1-Controles\bin\Debug\net10.0-windows\Pract1-Controles.exe
+C:\Users\Cristell\Desktop\HPA3\Laboratorio-1-HPA3\Pract1-Controles\Pract1-Controles\bin\Debug\net10.0-windows\Pract1-Controles.deps.json
+C:\Users\Cristell\Desktop\HPA3\Laboratorio-1-HPA3\Pract1-Controles\Pract1-Controles\bin\Debug\net10.0-windows\Pract1-Controles.runtimeconfig.json
+C:\Users\Cristell\Desktop\HPA3\Laboratorio-1-HPA3\Pract1-Controles\Pract1-Controles\bin\Debug\net10.0-windows\Pract1-Controles.dll
+C:\Users\Cristell\Desktop\HPA3\Laboratorio-1-HPA3\Pract1-Controles\Pract1-Controles\bin\Debug\net10.0-windows\Pract1-Controles.pdb
+C:\Users\Cristell\Desktop\HPA3\Laboratorio-1-HPA3\Pract1-Controles\Pract1-Controles\obj\Debug\net10.0-windows\Pract1_Controles.Form1.resources
+C:\Users\Cristell\Desktop\HPA3\Laboratorio-1-HPA3\Pract1-Controles\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-Controles.csproj.GenerateResource.cache
+C:\Users\Cristell\Desktop\HPA3\Laboratorio-1-HPA3\Pract1-Controles\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-Controles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cristell\Desktop\HPA3\Laboratorio-1-HPA3\Pract1-Controles\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-Controles.AssemblyInfoInputs.cache
+C:\Users\Cristell\Desktop\HPA3\Laboratorio-1-HPA3\Pract1-Controles\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-Controles.AssemblyInfo.cs
+C:\Users\Cristell\Desktop\HPA3\Laboratorio-1-HPA3\Pract1-Controles\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-Controles.csproj.CoreCompileInputs.cache
+C:\Users\Cristell\Desktop\HPA3\Laboratorio-1-HPA3\Pract1-Controles\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-Controles.sourcelink.json
+C:\Users\Cristell\Desktop\HPA3\Laboratorio-1-HPA3\Pract1-Controles\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-Controles.dll
+C:\Users\Cristell\Desktop\HPA3\Laboratorio-1-HPA3\Pract1-Controles\Pract1-Controles\obj\Debug\net10.0-windows\refint\Pract1-Controles.dll
+C:\Users\Cristell\Desktop\HPA3\Laboratorio-1-HPA3\Pract1-Controles\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-Controles.pdb
+C:\Users\Cristell\Desktop\HPA3\Laboratorio-1-HPA3\Pract1-Controles\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-Controles.genruntimeconfig.cache
+C:\Users\Cristell\Desktop\HPA3\Laboratorio-1-HPA3\Pract1-Controles\Pract1-Controles\obj\Debug\net10.0-windows\ref\Pract1-Controles.dll
+C:\Users\Cristell\Desktop\HPA3\Laboratorio-1-HPA3\Pract1-Controles\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-C.413652CB.Up2Date
+C:\Users\Cristell\Desktop\HPA3\Laboratorio-1-HPA3\Pract1-Controles\Pract1-Controles\bin\Debug\net10.0-windows\Newtonsoft.Json.dll
+C:\Users\Cristell\Desktop\HPA3\Laboratorio-1-HPA3\Pract1-Controles\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-Controles.csproj.AssemblyReference.cache
+C:\Users\Cristell\Downloads\NuGet\Escenario 1\Pract1-Controles\bin\Debug\net10.0-windows\Pract1-Controles.exe
+C:\Users\Cristell\Downloads\NuGet\Escenario 1\Pract1-Controles\bin\Debug\net10.0-windows\Pract1-Controles.deps.json
+C:\Users\Cristell\Downloads\NuGet\Escenario 1\Pract1-Controles\bin\Debug\net10.0-windows\Pract1-Controles.runtimeconfig.json
+C:\Users\Cristell\Downloads\NuGet\Escenario 1\Pract1-Controles\bin\Debug\net10.0-windows\Pract1-Controles.dll
+C:\Users\Cristell\Downloads\NuGet\Escenario 1\Pract1-Controles\bin\Debug\net10.0-windows\Pract1-Controles.pdb
+C:\Users\Cristell\Downloads\NuGet\Escenario 1\Pract1-Controles\bin\Debug\net10.0-windows\Newtonsoft.Json.dll
+C:\Users\Cristell\Downloads\NuGet\Escenario 1\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-Controles.csproj.AssemblyReference.cache
+C:\Users\Cristell\Downloads\NuGet\Escenario 1\Pract1-Controles\obj\Debug\net10.0-windows\Pract1_Controles.Form1.resources
+C:\Users\Cristell\Downloads\NuGet\Escenario 1\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-Controles.csproj.GenerateResource.cache
+C:\Users\Cristell\Downloads\NuGet\Escenario 1\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-Controles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cristell\Downloads\NuGet\Escenario 1\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-Controles.AssemblyInfoInputs.cache
+C:\Users\Cristell\Downloads\NuGet\Escenario 1\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-Controles.AssemblyInfo.cs
+C:\Users\Cristell\Downloads\NuGet\Escenario 1\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-Controles.csproj.CoreCompileInputs.cache
+C:\Users\Cristell\Downloads\NuGet\Escenario 1\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-C.413652CB.Up2Date
+C:\Users\Cristell\Downloads\NuGet\Escenario 1\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-Controles.dll
+C:\Users\Cristell\Downloads\NuGet\Escenario 1\Pract1-Controles\obj\Debug\net10.0-windows\refint\Pract1-Controles.dll
+C:\Users\Cristell\Downloads\NuGet\Escenario 1\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-Controles.pdb
+C:\Users\Cristell\Downloads\NuGet\Escenario 1\Pract1-Controles\obj\Debug\net10.0-windows\Pract1-Controles.genruntimeconfig.cache
+C:\Users\Cristell\Downloads\NuGet\Escenario 1\Pract1-Controles\obj\Debug\net10.0-windows\ref\Pract1-Controles.dll
