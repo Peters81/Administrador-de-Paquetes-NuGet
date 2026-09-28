@@ -225,8 +225,8 @@ dotnet add package Humanizer
 
 **Evidencia de la instalación de Humanizer:**
 
-![Instalación de Humanizer](Imagenes/instalacion-humanizer.png)
-
+![Instalación de Humanizer](pictures/11.png)
+![Instalación de Humanizer](pictures/11.png)
 ### Paso 3. Agregar Humanizer al código
 
 Después de instalar el paquete se agrega:
@@ -287,7 +287,7 @@ El texto exacto puede variar dependiendo de la fecha, hora y configuración util
 
 **Evidencia del resultado en la consola:**
 
-![Resultado de Humanizer](Imagenes/escenario2-resultado.png)
+![Resultado de Humanizer](pictures/12.png)
 
 ### Relación con NuGet
 
@@ -318,7 +318,7 @@ De esta manera, la aplicación puede conservar información sobre diferentes acc
 
 **Evidencia de la instalación de los paquetes:**
 
-![Instalación de Serilog](Imagenes/instalacion-serilog.png)
+![Instalación de Serilog](pictures/13.png)
 
 ### Paso 2. Configuración del registro
 
@@ -348,7 +348,7 @@ De esta forma, el archivo de registro permite comprobar cuándo se inició la ap
 
 **Evidencia de la configuración del registro:**
 
-![Configuración de Serilog](Imagenes/escenario3-configuracion.png)
+![Configuración de Serilog](pictures/14.png)
 
 ### Paso 3. Registro de eventos
 
@@ -376,7 +376,7 @@ El registro de este tipo de información puede ayudar a conocer las acciones que
 
 **Evidencia del evento registrado:**
 
-![Evento registrado con Serilog](Imagenes/escenario3-evento.png)
+![Evento registrado con Serilog](pictures/15.png)
 
 ### Paso 4. Registro y manejo de errores
 
@@ -415,7 +415,7 @@ Intento de dividir por cero.
 
 **Evidencia del error registrado:**
 
-![Error registrado con Serilog](Imagenes/escenario3-error.png)
+![Error registrado con Serilog](pictures/16.png)
 
 ### Paso 5. Relación con el mantenimiento y la calidad
 
@@ -444,7 +444,7 @@ Este archivo contiene los eventos y errores registrados durante la ejecución de
 
 **Evidencia del resultado final:**
 
-![Resultado del escenario 3](Imagenes/escenario3-resultado.png)
+![Resultado del escenario 3](pictures/18.png)
 
 ### Relación con NuGet
 
